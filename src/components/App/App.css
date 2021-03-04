@@ -1,0 +1,23 @@
+.app {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+.app__content {
+    max-width: 860px;
+    margin: 90px auto;
+}
+
+.app__search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.app__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
